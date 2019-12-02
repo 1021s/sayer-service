@@ -6,7 +6,7 @@ let seedData = [
 ];
 
 // eslint-disable-next-line func-names
-Number.prototype.pad = function (size) {
+Number.prototype.pad = (size) => {
   let s = String(this);
   while (s.length < (size || 2)) { s = '0' + s; }
   return s;

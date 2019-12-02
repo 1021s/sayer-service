@@ -9,7 +9,7 @@ const PORT = 3000;
 // app.use(bodyParser.urlencoded({extended: true }));
 app.use(express.static('public/dist'));
 
-app.get('/api/listing/:listing_id/history', function (req, res) {
+app.get('/api/listing/:listing_id/history', (req, res) =>{
   const id = req.params.listing_id;
   House.find({ Listing_id: id.toString() }, (err, house) => {
     if (err) return console.error(err);
