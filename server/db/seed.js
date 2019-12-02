@@ -11,7 +11,7 @@ Number.prototype.pad = (size) => {
   while (s.length < (size || 2)) { s = '0' + s; }
   return s;
 };
-
+// TODO turn to function
 for (let i = 0; i < 100; i++) {
   const zip = faker.address.zipCode('#####');
   const price = faker.commerce.price(100000, 1000000);
@@ -34,5 +34,5 @@ const insertSeed = () => {
     }
   });
 };
-console.log('len: ', seedData.length);
+
 insertSeed();
