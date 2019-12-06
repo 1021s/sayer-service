@@ -15,9 +15,11 @@ const data = [
   ["2018", 0],
   ["2019", 0],
 ];
-
+// const listId = window.location.href.slice()
 const getData = async () => {
-  const URL = '/api/listing/030/history';
+  const id = getRandomInt(99);
+  console.log(id);
+  const URL = `/api/listing/0${id}/history`;
   const res = await axios.get(URL);
   const lastSold = res.data[0].last_sold; //TODO
   const initialCost = res.data[0].initial_cost;
@@ -39,7 +41,14 @@ const getGrowth = (initialVal) => {
 const options = {
   title: "Zestimate History",
   curveType: "function",
-  legend: { position: "bottom" }
+  legend: "none",
+  intervals: "none",
+  vAxis: {
+    gridlines: {
+      color: 'transparent'
+    },
+    side: 'left'
+  },
 };
 
 class ExponGrowth extends React.Component {

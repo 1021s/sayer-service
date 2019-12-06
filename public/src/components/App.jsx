@@ -1,7 +1,5 @@
 import React from 'react';
 import ExponGrowth from './ExponGrowth.jsx';
-import { VictoryChart, VictoryGroup, VictoryVoronoiContainer,
-  VictoryLine, VictoryTooltip, VictoryScatter } from 'victory';
 
 
 
