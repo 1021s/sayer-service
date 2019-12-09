@@ -30,6 +30,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-google-charts": "^3.0.15",
+    "styled-components": "^4.4.1",
     "victory": "^33.1.5"
   },
   "devDependencies": {
@@ -53,8 +54,9 @@
   },
   "jest": {
     "rootDir": "__tests__",
-    "setupFilesAfterEnv": ["<rootDir>setupTests.js"],
+    "setupFilesAfterEnv": [
+      "<rootDir>setupTests.js"
+    ],
     "testRegex": "/__tests__/.*\\.test\\.(js|jsx)$"
   }
 }
-

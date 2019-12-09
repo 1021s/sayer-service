@@ -15,7 +15,7 @@ describe('First set of tests:', () => {
   });
 
   it('should render chart without throwing an error', () => {
-    const chart = wrapper.contains(Chart)
+    const chart = wrapper.contains(Chart);
     expect(chart).toBe(true);
   });
 
