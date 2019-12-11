@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/routes/index.js",
+    "start": "nodemon server/routes/index.js",
     "dev:react": "webpack -d --watch",
     "test": "jest",
     "db:setup": "node server/db/seed.js"
@@ -22,6 +22,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "body-parser": "latest",
+    "css-loader": "^3.3.0",
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "lodash": "^4.17.15",
@@ -30,6 +31,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-google-charts": "^3.0.15",
+    "style-loader": "^1.0.1",
     "styled-components": "^4.4.1",
     "victory": "^33.1.5"
   },

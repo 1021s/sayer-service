@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Open Sans",Gotham,gotham,Tahoma,Geneva,sans-serif;
+    color: #2A2A33;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
+    border-color: rgb(167, 166, 171);
+}
+
+.cost {
+    font-size: 22px;
+    text-align: center;
+    font-family: "Open Sans", Tahoma, Geneva, sans-serif;
+    color: rgb(42, 42, 51);
+}
+
+.range {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Open Sans", Tahoma, Geneva, sans-serif;
+    color: rgb(20, 157, 48);
+    border-style: dashed;
+    border-width: 0 0 1px 0;
+    border-color: rgb(167, 166, 171);
+}
+
+
+
