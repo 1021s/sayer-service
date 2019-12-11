@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/routes/index.js",
+    "start": "node server/routes/index.js",
     "dev:react": "webpack -d --watch",
     "test": "jest",
     "db:setup": "node server/db/seed.js"

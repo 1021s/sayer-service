@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoUri = 'mongodb://localhost/zestimate';
+const mongoUri = 'mongodb://host.docker.internal/zestimate';
 
 const db = mongoose.connect(mongoUri);
 const dataBase = mongoose.connection;
