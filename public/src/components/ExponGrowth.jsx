@@ -48,7 +48,7 @@ class ExponGrowth extends React.Component {
   }
 
   async getData() {
-    const listId = window.location.href.slice(27);
+    const listId = window.location.href.slice(-3);
     const URL = `/api/listing/${listId}`;
     const res = await axios.get(URL);
     const lastSold = res.data[0].last_sold; //TODO
