@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const mongoUri = 'mongodb://database:27017/zestimate';
+// const mongoUri = 'mongodb://localhost/zestimate';
 
 const db = mongoose.connect(mongoUri);
 const dataBase = mongoose.connection;
