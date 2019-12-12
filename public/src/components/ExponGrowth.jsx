@@ -26,7 +26,7 @@ const options = {
     gridlines: {
       color: 'transparent'
     },
-    side: 'left'
+    side: 'right'
   },
 };
 
