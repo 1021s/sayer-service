@@ -7,7 +7,7 @@ import ZestHeader from "./ZestHeader.jsx";
 class App extends React.Component {
   render() {
     return (
-      <div>ls
+      <div>
         < ExponGrowth />
       </div>
     )
