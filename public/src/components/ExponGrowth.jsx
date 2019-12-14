@@ -38,6 +38,7 @@ class ExponGrowth extends React.Component {
     this.state = {
       cost : ''
     }
+    this.getData = this.getData.bind(this);
   }
   componentDidMount() {
     this.getData()

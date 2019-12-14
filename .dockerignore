@@ -3,3 +3,8 @@
 
 node_modules
 npm-debug.log
+.eslintrc.js
+__test__
+.circleci
+
+public/dist/bundle.js
